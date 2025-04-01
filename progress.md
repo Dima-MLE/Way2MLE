@@ -3,7 +3,7 @@
 ## 1. Programming & Data Analysis Fundamentals
 | Course | Platform | Author | Progress | Priority |
 |--------|----------|--------|----------|----------|
-| [Data Science Starter](https://stepik.org/course/194633/syllabus) | Stepik | [HSE](https://www.hse.ru/ma/mlds/) | 0/197 | 🔵 High |
+| [Data Science Starter](https://stepik.org/course/194633/syllabus) | Stepik | [HSE](https://www.hse.ru/ma/mlds/) | 78/35 |
 | [Intro to Data Science](link) | Stepik | Bioinformatics Institute | 0/112 | 🔵 High |
 
 ## 2. Classical Machine Learning
