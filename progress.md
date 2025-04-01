@@ -1,8 +1,9 @@
 # 🛠️ Professional Skills Development Tracker
 
 ## 1. Programming & Data Analysis Fundamentals
-
-### [Data Science Starter]([link](https://stepik.org/course/194633/syllabus)) | Stepik | 0/197 | 🔵 High
+| Course | Platform | Progress | Priority |
+|--------|----------|----------|----------|
+| [Data Science Starter](https://stepik.org/course/194633/syllabus) | Stepik | 0/197 | 🔵 High |
 <details>
 <summary>📋 Course Syllabus (Click to expand)</summary>
 
