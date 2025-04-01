@@ -22,9 +22,8 @@ This repository documents my Machine Learning learning journey. Here I:
 | My projects will appear here | Coming soon! |
 
 ## 📚 Learning Path
-1. **Basic Python** ✅  
-2. **Introduction to Data Science** (https://stepik.org/course/194633/syllabus) ⏳  
-3. **Andrew Ng's ML Course** 🔜  
+Detailed progress tracking across all skill categories:  
+[📊 Progress Tracker](progress.md) 
 
 ## 🔗 Links
 - [LinkedIn Profile](...)  
