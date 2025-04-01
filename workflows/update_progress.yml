@@ -1,0 +1,29 @@
+name: Update Stepik Progress
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Ежедневно в 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run progress updater
+        env:
+          STEPIK_CLIENT_ID: ${{ 5A6rbJIRB3CnIgCN5MNGJlB8m68ideMmzKlsjUXr}}
+          STEPIK_CLIENT_SECRET: ${{ 7ZOH2GnDe7tB77bc4gPLaZWyEush5QVMxwlAFJyZZ5Rb9MaNm51tDc5SykPzJQWMklziz3RU2IVrml96vLAcIu93fc66CINYxfovPdW1iFNDVDN88PCeywALJCEhSbc1 }}
+        run: python update_progress.py
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add progress.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Stepik progress"
+          git push
